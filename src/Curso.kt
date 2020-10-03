@@ -1,7 +1,7 @@
 class Curso(var nome: String, var cod: Int, var profT: ProfessorTitular?, var profA: ProfessorAdjunto?, var qtdMaxAlu: Int){
 
 
-    //nulo
+
     val matriculados = mutableListOf<Aluno>()
 
     fun adicionarUmAluno(umAluno: Aluno):Boolean{
@@ -13,7 +13,7 @@ class Curso(var nome: String, var cod: Int, var profT: ProfessorTitular?, var pr
         }
     }
 
-    //método precisa ser mais elaborado
+
     fun excluirAluno(umAluno: Aluno){
         if(matriculados.contains(umAluno)){
             matriculados.remove(umAluno)
