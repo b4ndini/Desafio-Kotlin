@@ -1,0 +1,1 @@
+class ProfessorTitular(var n: String, var sn: String, var c: Int, var tC: Int,  var especialidade: String) : Professor(n, sn, c, tC)

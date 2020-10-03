@@ -1,0 +1,1 @@
+class ProfessorAdjunto(var n: String, var sn: String, var c: Int, var tC: Int,  var qtdHoras: Int): Professor(n, sn, c, tC)
